@@ -1,0 +1,22 @@
+#write a prg to print given year is leap year or not
+def my_function(year)
+     if year%4==0 and year%100!=0:
+        print('leap year')
+     elif year%400 == 0:
+        print('leap year')
+     else:
+        print('not a leap year')
+year = int(input('enter a year'))
+my_function(year)
+
+# write a prg to print given year is leap year or not
+def my_function(year)
+     if year%4==0 and year%100!=0:
+        print('leap year')
+     elif year%400 == 0:
+        print('leap year')
+     else:
+        print('not a leap year')
+year = int(input('enter a year'))
+my_function(year)
+
